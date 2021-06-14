@@ -4,3 +4,5 @@ O que vou aprender na Trybe:
 - Bash
 - Git
 - Front-End
+- HTML
+- CSS
