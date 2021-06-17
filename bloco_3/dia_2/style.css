@@ -1,0 +1,38 @@
+
+    h1 {
+      text-align: center;
+      font-family: sans-serif;
+      color: orange;
+      font-size: 65px;
+    }
+
+    p {
+      font-weight: 600;
+      font-size: 3em;
+    }
+
+    ul {
+      background-color: palegoldenrod;
+      line-height: 30px;
+    }
+
+    body {
+      font-size: 16px;
+    }
+    
+    .background {
+      background-color: burlywood;
+    }
+
+    #yellow {
+      color: yellow;
+    }
+
+    #red {
+      color: red;
+    }
+
+    #brown {
+      color: brown;
+    }
+    
