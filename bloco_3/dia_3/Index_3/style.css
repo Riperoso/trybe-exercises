@@ -1,0 +1,13 @@
+h1, p {
+  text-align: center;
+}
+
+li:hover {
+  background-color: chartreuse;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  transition: 1s;
+}
+
+li {
+  list-style: none;
+}
