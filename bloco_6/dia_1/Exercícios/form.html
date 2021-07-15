@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Formulário</h1>
+  </header>
+  <form>
+    <fieldset>
+      <label for="nome">Nome:
+        <input type="text" name="nome" placeholder="Digite seu nome" maxlength="40" required>
+      </label>
+      <br>
+      <br>
+      <label for="e-mail">E-mail:
+        <input type="email" name="e-mail" placeholder="Digite seu e-mail" maxlength="50" required>
+      </label>
+      <br>
+      <br>
+      <label for="cpf">CPF:
+        <input type="text" name="cpf" placeholder="Digite seu CPF" maxlength="11" required>
+      </label>
+      <br>
+      <br>
+      <label for="endereco">Endereço:
+        <input type="text" name="endereco" placeholder="Digite seu endereço" maxlength="200" required>
+      </label>
+      <br>
+      <br>
+      <label for="cidade">Cidade:
+        <input type="text" name="cidade" placeholder="Digite sua cidade" maxlength="28" required>
+      </label>
+      <br>
+      <br>
+      <label for="estado">Estado:
+        <select name="estado" id="selectEstado" required>
+        </select>
+      </label>
+      <br>
+      <br>
+      <label for="casa"><input type="radio" name="tipoCasa" id="casa" value="casa" required>Casa</label>
+      <label for="apartamento"><input type="radio" name="tipoCasa" id="apartamento" value="apartamento" required>Apartamento</label>
+    </fieldset>
+    <fieldset>
+      <label for="resumo">Resumo do currículo: <br>
+      <textarea name="resumo" cols="50" rows="10" maxlength="1000" placeholder="Coloque um resumo do seu currículo" required></textarea>
+      </label>
+    </fieldset>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
