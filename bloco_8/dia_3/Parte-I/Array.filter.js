@@ -40,3 +40,4 @@ const removeStudentByName = (name, listStudents) =>
 
 const newListStudents = removeStudentByName('Ricardo', arrayMyStudents);
 console.log(newListStudents); // [ 'Maria', 'Manuela', 'Jorge', 'Wilson' ]
+

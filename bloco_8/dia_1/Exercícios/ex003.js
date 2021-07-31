@@ -24,3 +24,4 @@ const verifyNotes = (arr1, arr2, callback) => {
 }
 
 console.log(verifyNotes(RIGHT_ANSWERS, STUDENT_ANSWERS, verify))
+
