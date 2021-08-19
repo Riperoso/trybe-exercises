@@ -25,6 +25,8 @@ Object.keys("foo");
 Object.keys("foo");
 // ["0", "1", "2"]                   (ES2015 code)
 
+/* Agora, você aprenderá sobre o método Object.keys . Ele é utilizado para listar as chaves de um objeto, retornando-as em um array. */
+
 const student1 = {
   Html: 'Muito Bom',
   Css: 'Bom',

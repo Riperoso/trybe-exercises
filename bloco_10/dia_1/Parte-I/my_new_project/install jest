@@ -1,0 +1,10 @@
+Para criar o package.json no seu projeto execute em seu terminal o comando abaixo:
+
+npm init -y
+
+colocar jest em scripts/tests
+
+Por fim, vamos instalar o Jest , dentro da pasta que você criou no passo 3, executando o seguinte comando no terminal:
+
+npm install --save-dev jest
+

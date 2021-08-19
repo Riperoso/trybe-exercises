@@ -23,3 +23,4 @@ console.log(listSkillsValuesWithFor(student));
 
 // Com Object.values
 console.log(listSkillsValuesWithValues(student));
+

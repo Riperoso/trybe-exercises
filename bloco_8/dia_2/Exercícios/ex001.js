@@ -67,8 +67,7 @@ const books = [
 // Dica: use a função find .
 
 function authorBornIn1947() {
-  authorBorn = books.find((obj) => obj.author.birthYear === 1947)
-  return `${authorBorn.author.name}`
+  authorBorn = books.find((obj) => obj.author.birthYear === 1947).author.name
 }
 
 assert.strictEqual(authorBornIn1947(), 'Stephen King');
