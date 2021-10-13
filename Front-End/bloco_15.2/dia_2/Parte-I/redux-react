@@ -1,0 +1,7 @@
+comando para instalar o redux no react
+
+npm install react-redux
+
+comando para instalar as dependencias
+
+npm install --save redux react-redux
