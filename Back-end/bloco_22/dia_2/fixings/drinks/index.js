@@ -107,6 +107,8 @@ fetch('http://localhost:3001/recipes/4', {
   }
 });
 
+// drinks
+
 app.post('/drinks', function (req, res) {
   const {id, name, price} = req.body
   recipes.push({id, name, price});
